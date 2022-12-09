@@ -28,7 +28,6 @@ int main(void)
 		printf("%d and is greater than 5\n", num);
 
 	}
-							
 
 	else if ((num < 6) && (num < 0))
 	{
