@@ -5,7 +5,6 @@
 #include <time.h>
 
 /**
- *
  *  main - main function to generate a random number
  *
  * Return: Always 0 (Success)
@@ -29,7 +28,7 @@ int main(void)
 		printf("%d and is greater than 5\n", num);
 
 	}
-								
+							
 
 	else if ((num < 6) && (num < 0))
 	{
@@ -37,13 +36,13 @@ int main(void)
 
 	}
 
-	
+
 	else
 	{
 		printf("%d and is 0\n", num);
 
 	}
-	
+
 	return (0);
 
 }
