@@ -2,19 +2,21 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets
+ * main - returns an alphabet in reverse order
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int ch = 'a';
+	int ch = 'z';
 
-	while (ch <= 'z')
+	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch++;
+		ch--;
 	}
 	putchar('\n');
+
 	return (0);
 }

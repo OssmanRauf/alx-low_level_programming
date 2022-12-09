@@ -2,17 +2,22 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets
+ * main - returns alphabets both except e and q
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
+
 {
-	int ch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
-		putchar(ch);
+		if ((ch != 'e') && (ch != 'q'))
+		{
+			putchar(ch);
+		}
 		ch++;
 	}
 	putchar('\n');

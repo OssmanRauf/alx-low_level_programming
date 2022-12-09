@@ -2,19 +2,23 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets
+ * main - return single integer from 0-10
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int ch = 'a';
 
-	while (ch <= 'z')
+int main(void)
+
+{
+	int num = 0;
+
+	while (num < 10)
 	{
-		putchar(ch);
-		ch++;
+		printf("%d", num);
+		num++;
 	}
 	putchar('\n');
+
 	return (0);
+
 }
